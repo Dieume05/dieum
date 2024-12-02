@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+    background-color: #a3a3ce;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: gray;
+    text-align: left;
+}
+nav ul {
+    text-align: right;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    color: white;
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    background-image: url(image/child4.jpg);
+}
+
+.hero image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero h1{
+    text-align: center;
+    color: white;
+}
+
+.clothes-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0.0,0.1);
+    padding: 20px;
+    gap: 20px;
+    background-color: #ffffff;
+}
+
+.clothes-gallery img {
+    width: 200px;
+    height: auto;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  
+}
+
+button:hover {
+    background-color: black;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ff6f91;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a,
+.footer-section p a {
+    color: #ff6f91;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover,
+.footer-section p a:hover {
+    text-decoration: underline;
+}
+
+.footer-credit {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ccc;
+}
+h6{
+    text-align: left;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+/* Section Testimonials */
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 20px 0;
+    border-top: 2px solid #007BFF; /* Ligne de séparation avec la section précédente */
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonial {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007BFF;
+    font-weight: bold;
+}
